@@ -46,33 +46,33 @@
 ### Results:
  - data1 results:
 
-  - test_size = 0.2, random_state = 50
-  - Linear Regression - r2_score (-7288923857373454.0)   mse (1.478487263733959e+20)
-  - KNN - r2_score (0.18256172399342874)  n = 60 being the best btw (6 - 100)
-  - RandomForestRegressor - no results. After very long time running, had to stop
+   - test_size = 0.2, random_state = 50
+   - Linear Regression - r2_score (-7288923857373454.0)   mse (1.478487263733959e+20)
+   - KNN - r2_score (0.18256172399342874)  n = 60 being the best btw (6 - 100)
+   - RandomForestRegressor - no results. After very long time running, had to stop
 
  - data2 results: It shows better results here, but still not good. Linear regression is not a good algorithm for this df.
 
-  - test_size = 0.2, random_state = 50
-  - Linear Regression - r2_score (0.1281434857128746)   mse (26739.778572218645)
-  - KNN - r2_score (0.17731027440793024)  n = 40
-  - RandomForestRegressor - score (0.15313040002626443)
+   - test_size = 0.2, random_state = 50
+   - Linear Regression - r2_score (0.1281434857128746)   mse (26739.778572218645)
+   - KNN - r2_score (0.17731027440793024)  n = 40
+   - RandomForestRegressor - score (0.15313040002626443)
 
  - results for df_flight
 
-  - results1: This last df does not reflect big difference, eventhough scores were higher.
+   - results1: This last df does not reflect big difference, eventhough scores were higher.
 
-   - test_size = 0.2, random_state = 50
-   - Linear Regression - r2_score (0.16796755038998035)   mse (27287.71018590392)
-   - KNN - r2_score (0.2062641571899162)  n = 40 /  (0.21282696600811746)  n = 60  
-   - RandomForestRegressor - score (0.19467609353619353)
+    - test_size = 0.2, random_state = 50
+    - Linear Regression - r2_score (0.16796755038998035)   mse (27287.71018590392)
+    - KNN - r2_score (0.2062641571899162)  n = 40 /  (0.21282696600811746)  n = 60  
+    - RandomForestRegressor - score (0.19467609353619353)
 
   - results2:
 
-   - test_size = 0.4, random_state = 50
-   - Linear Regression - r2_score (0.16911968304851277)   mse (27900.26845877992)
-   - KNN - r2_score (0.22044850021293194)  n = 60 /  (0.22163268249845014)  n = 80  
-   - RandomForestRegressor - score (0.1978057941713265)
+    - test_size = 0.4, random_state = 50
+    - Linear Regression - r2_score (0.16911968304851277)   mse (27900.26845877992)
+    - KNN - r2_score (0.22044850021293194)  n = 60 /  (0.22163268249845014)  n = 80  
+    - RandomForestRegressor - score (0.1978057941713265)
 
 ### Final thoughs: 
  - The dataframe provided can be used to get some business insight, however it's not enough to reach our main goal of predicting ticket prices for future flights.
