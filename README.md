@@ -28,7 +28,7 @@ Raw dataset provided consists of records of 28,358,746 flights information for d
 - Data cleaning.
 Going through all mentioned process we had to reset indexes, drop unnecesary columns, readjust columns due to the fact that some itineraries included 1 stop and those were not significant for the scope of this project, filtered columns like Passangers where itineraries with less than 5 represented 78%, same concept for filtering Market Coupons, and the rest of the columns. Data was also check and fixed for null, duplicates, and type values.
 
-Python was used for this First Approach. To explore our Python Notebook, follow this [link]()
+Python was used for this First Approach. To explore our Python Notebook, follow this [link](https://github.com/GitHub4lrg/Flight_Market_2022/blob/main/Python/Flight_Market_2022.ipynb)
 
 ## Analysis
 
