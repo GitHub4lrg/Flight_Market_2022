@@ -39,7 +39,7 @@ After finalizing our first approach with the dataset we decided to create three 
   - Evaluation process requires we separated our target(TicketPrice) from our features, and once separated split features into numerical and categorical data. Numericals were scaled and categoricals encoded to be able to build our linear regression, and KNN model. Our next step was to get our train and test sets to later build an run our models. Our initial plan was to run 3 different sets for everyone of the 3 data sets (data1, data2, df_flight), however based on preliminary results (very bad scores) we decided to go ahead with the next step in this process.
   - Optimization as planned would be with a different algorithm (RandomForest), at this point it was not a surprise the scores we were getting did not make a significant difference.
 
-Python was used for this Analysis. To explore our Python Notebook, follow this [link]()
+Python was used for this Analysis. To explore our Python Notebook, follow this [link](Python/Flight_Market_2022B.ipynb)
 
 ## Conclusions
 
