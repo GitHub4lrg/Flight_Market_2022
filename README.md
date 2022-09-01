@@ -1,4 +1,4 @@
-![Flight Image](https://github.com/GitHub4lrg/Flight_Market_2022/blob/images/Boening%20_777_%20wikimedia.jpg?raw=true)
+![Flight Image](https://github.com/GitHub4lrg/Flight_Market_2022/blob/main/images/Boening%20_777_%20wikimedia.jpg)
 # Flight Prediction Price 2022
 
 ## Index:
