@@ -9,7 +9,6 @@
 - [Analysis](#analysis)
 -	[Conclusions](#conclusions)
 -	[Presentation](#presentation)
--	[Tools Integration](#tools-integration)
  
 ## Scenario
 
@@ -83,12 +82,5 @@ Final thoughs:
 
 ## Presentation
 
-We used story in Tableau to make our presentation with the simplest and visually appealing. To view our presentation, follow the [link]().
+We used story in Tableau to make our presentation with the simplest and visually appealing. To view our presentation, follow the [link](https://public.tableau.com/views/FlightMarket2022/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link).
 
-## Tools Integration
-
-You can find here access to all the tools we used for this project:
-
- -	Tableau - Presentation, follow the [link]().
- -	Python - Cleaning/Wrangling, follow the [link]().
- -	Python - ML & Models, follow the [link]().
