@@ -9,7 +9,8 @@
 - [Analysis](#analysis)
 -	[Conclusions](#conclusions)
 -	[Presentation](#presentation)
- 
+-	[Contact](#contact)
+
 ## Scenario
 
 The raw Dataframe presented came from the Bureau of Transportation Statistics (BTS) using DB1BMarket data sets that include flights within US for the period of 2021 (all the four Quarters) and 2022 (first Quarter). The Airline Origin and Destination Survey (DB1B) is a 10% sample of airline tickets from reporting carriers collected by the Office of Airline Information of the BTS.
@@ -84,3 +85,6 @@ Final thoughs:
 
 We used story in Tableau to make our presentation with the simplest and visually appealing. To view our presentation, follow the [link](https://public.tableau.com/views/FlightMarket2022/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link).
 
+## Contact
+Luis R Guerrero - @lrgutube09 - lrgutube09@gmail.com
+Project Link: https://github.com/GitHub4lrg/Flight_Market_2022
