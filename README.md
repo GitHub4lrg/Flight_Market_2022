@@ -13,31 +13,31 @@
 
 ## Scenario
 
-The raw Dataframe presented came from the Bureau of Transportation Statistics (BTS) using DB1BMarket data sets that include flights within US for the period of 2021 (all the four Quarters) and 2022 (first Quarter). The Airline Origin and Destination Survey (DB1B) is a 10% sample of airline tickets from reporting carriers collected by the Office of Airline Information of the BTS.
+The raw Dataframe presented came from the Bureau of Transportation Statistics (BTS) using DB1BMarket data sets that include flights within US for the period of 2021 (all four quarters) and 2022 (first quarter). The Airline Origin and Destination Survey (DB1B) is a 10% sample of airline tickets from reporting carriers collected by the BTS's Office of Airline Information.
 
 ## Objective
 
-Main goal is to predict ticket prices for futures flights across all States using provided data, and also present whether distances have a major influence on those prices or not.
+The main goal is to predict ticket prices for futures flights across all states using the provided data, and also present whether distances have a major influence on those prices or not.
 
 ## First Approach
 
-Raw dataset provided consists of records of 28,358,746 flights information for data including the four quarters of 2021, and 1st quarter of 2022. Dataframe at first was handled through different process with the idea of reducing its size to a more managable data, and that included:
+The raw dataset provided consists of information for 28,358,746 recorded flights, including all four quarters of 2021, and the 1st quarter of 2022. The dataframe at first was handled through different processes with the idea of reducing its size to a more managable. The processes included:
 - Import and concatenate all data sets.
 - Exploratory Data Analysis.
 - Data wrangling.
 - Data cleaning.
-Going through all mentioned process we had to reset indexes, drop unnecesary columns, readjust columns due to the fact that some itineraries included 1 stop and those were not significant for the scope of this project, filtered columns like Passangers where itineraries with less than 5 represented 78%, same concept for filtering Market Coupons, and the rest of the columns. Data was also check and fixed for null, duplicates, and type values.
+Going through all the mentioned processes we had to reset indexes, drop unnecesary columns, readjust columns due to the fact that some itineraries included 1 stop and those were not significant for the scope of this project, filtered columns like Passangers where itineraries with less than 5 represented 78%. We used the same concept for filtering Market Coupons and the rest of the columns. Data was also checked and fixed for null, duplicate, and type values.
 
 Python was used for this First Approach. To explore our Python Notebook, follow this [link](Python/Flight_Market_2022.ipynb)
 
 ## Analysis
 
-After finalizing our first approach with the dataset we decided to create three differents dataframes (data1: include only top 5 Origin cities; data2: include only top 5 Origin cities & top 5 Destination cities; df_flight: same as data2 plus only top 7 Carriers); then we started the analysis with the Representation, Evaluation, and Optimization.
+After finalizing our first approach with the dataset we decided to create three differents dataframes (data1: includes only top 5 Origin cities; data2: includes only top 5 Origin cities & top 5 Destination cities; df_flight: same as data2 plus only top 7 Carriers); we then started the analysis with the Representation, Evaluation, and Optimization.
 
 - Representation through Machine Learning Algorithm Selection & Implementation.
-  - To initiate the analysis in our dataframes (data1, data2, df_flight) we created another Python Notebook, they were pretty cleanned as we checked once again. We iterated one by one doing visual inspection with histograms, barplots, scatterplots, then looked for correlations and patterns while checking distribuition of the data and using describe method. Consequently, some features were dropped, others changed data types, and looking for outliers confirmed some data needed to be transformed for getting it ready for the next steps.
-  - Evaluation process requires we separated our target(TicketPrice) from our features, and once separated split features into numerical and categorical data. Numericals were scaled and categoricals encoded to be able to build our linear regression, and KNN model. Our next step was to get our train and test sets to later build an run our models. Our initial plan was to run 3 different sets for everyone of the 3 data sets (data1, data2, df_flight), however based on preliminary results (very bad scores) we decided to go ahead with the next step in this process.
-  - Optimization as planned would be with a different algorithm (RandomForest), at this point it was not a surprise the scores we were getting did not make a significant difference.
+  - To initiate the analysis in our dataframes (data1, data2, df_flight) we created another Python Notebook, these were already pretty cleaned. We iterated one by one doing visual inspection with histograms, barplots, scatterplots. Afterwords, we looked for correlations and patterns while checking distribuition of the data and using the described method. Consequently, some features were dropped, others changed data types, and we looked for outliers to confirm some data needed to be transformed to get it ready for the next steps.
+  - The evaluation process requires us to separate our target(TicketPrice) from our features, and once separated split features into numerical and categorical data. Numericals were scaled and categoricals encoded to build our linear regression, and KNN model. Our next step was to get our train and test sets to later build an run our models. Our initial plan was to run 3 different sets for every one of the 3 data sets (data1, data2, df_flight), however based on preliminary results (very bad scores) we decided to go ahead with the next step in this process.
+  - Optimization as planned would be completed with a different algorithm (RandomForest), at this point it was not a surprise the scores we were getting did not make a significant difference.
 
 Python was used for this Analysis. To explore our Python Notebook, follow this [link](Python/Flight_Market_2022B.ipynb)
 
@@ -77,13 +77,13 @@ Results:
 
 Final thoughs: 
  - The dataframe provided can be used to get some business insight, however it's not enough to reach our main goal of predicting ticket prices for future flights.
- - Prices show an increased value through the different quarters, while demonstrate a decrease value for an increase amount of passangers.
- - Carriers like Frontier and Spirits show around $100 cheaper compare to the other 5 carriers included in our analysis.
+ - Prices show an increased value through the different quarters, while demonstrating a decreased value for an increased amount of passangers.
+ - Carriers like Frontier and Spirit are around $100 cheaper compared to the other 5 carriers included in our analysis.
  - Finally dataframe shows a marked trend of increased price for an increase in the distance flown.
 
 ## Presentation
 
-We used story in Tableau to make our presentation with the simplest and visually appealing. To view our presentation, follow the [link](https://public.tableau.com/views/FlightMarket2022/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link).
+We used story in Tableau to make our presentation with the simplest and visually appealing tools. To view our presentation, follow the [link](https://public.tableau.com/views/FlightMarket2022/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link).
 
 ## Contact
 Luis R Guerrero - @lrgutube09 - lrgutube09@gmail.com
