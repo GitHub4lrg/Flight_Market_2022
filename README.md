@@ -83,7 +83,7 @@ Final thoughs:
 
 ## Presentation
 
-We used story in Tableau to make our presentation with the simplest and visually appealing tools. To view our presentation, follow the [link](https://public.tableau.com/views/FlightMarket2022/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link).
+We used story in Tableau to make our presentation with the simplest and visually appealing tools. To view our presentation, follow the [link]([https://public.tableau.com/views/FlightMarket2022/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link](https://public.tableau.com/views/FlightMarket2022/FlightMarketPrice2022?:language=en-US&:display_count=n&:origin=viz_share_link)).
 
 ## Contact
 Luis R Guerrero - @lrgutube09 - lrgutube09@gmail.com
